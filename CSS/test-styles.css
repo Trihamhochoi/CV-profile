@@ -1,0 +1,35 @@
+p{
+  margin: 0;
+}
+
+h3{
+  margin: 0;
+}
+.wrap{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 1em;
+}
+.python_img{
+  width: 150px;
+  float: left;
+  margin-right:30px;
+}
+
+.API-img{
+  width: 150px;
+  float: left;
+  margin-right:30px;
+}
+
+.data-img{
+  width: 150px;
+  float: left;
+  margin-right:30px;
+}
+
+.skill-row{
+  text-align: left;
+  line-height: 2;
+}

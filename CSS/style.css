@@ -1,0 +1,199 @@
+/**** DEFINE TAG SELECTOR****/
+body {
+  background-color: #F9F9F9;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top: 4px dotted;
+  border-color: #ECB390;
+  background-color: #DFF6FF;
+  width: 5%;
+}
+
+h1{
+  font-size: 3em;
+  color:#66BFBF;
+  font-family: 'Sacramento', cursive;
+  margin: 0 auto;
+}
+
+h2{
+  color:#66BFBF;
+  font-weight: bolder;
+  text-align: center;
+  margin: 0 0;
+  line-height: 2;
+}
+
+h3{
+  color: #11999E;
+  font-weight: normal;
+  margin: 0;
+}
+a {
+  color: #06283D;
+  font-weight: normal;
+  text-decoration: none;
+
+}
+
+
+p{
+  margin: 0;
+}
+
+ul{
+  margin: 0 auto;
+}
+li{
+  list-style-type: square;
+}
+
+
+
+/**** DEFINE EACH PART OF PORTFOLIO****/
+#greetings{
+  background-color:#EDDFB3;
+  padding: 20px 0 35px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#About{
+  width: 60%;
+  margin: 0 auto 50px;
+  text-align: justify;
+  line-height: 2;
+}
+#skills{
+
+}
+#project{
+
+}
+#contact-me{
+  margin: 0 auto 50px;
+  text-align: center;
+  line-height: 2;
+}
+
+/**** DEFINE CLASS SELECTOR****/
+.menu-bar{
+  position:relative;
+  right: 250px;
+  color: #11999E;
+  font-weight: border;
+  font-size: 1.25rem;
+  margin: 10px 20px;
+}
+.menu-bar:hover{
+  color:#47B5FF;
+}
+
+.certificate{
+  font-weight: normal;
+}
+.certificate-id:hover{
+  color:#47B5FF;
+}
+
+.bottom{
+  background-color: #66BFBF;
+  margin: 0 auto;
+  padding: 30px 0 20px 0;
+  text-align: center;
+  line-height: 2;
+}
+
+/***** DEFINE GRID CLASS *****/
+.skill-wrap{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 200px 200px 200px;
+}
+
+.skill-row{
+  margin: 0 20px 0 20px;
+  text-align: left;
+  line-height: 2;
+}
+
+.project-wrap-1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1em;
+  margin: 20px 0;
+}
+
+.project-wrap-2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px 200px;
+  column-gap: 1em;
+}
+
+.projects-row{
+  padding: 20px;
+  text-align: left;
+  line-height: 2;
+}
+.projects-row:hover{
+    background-color:#BBE1FA;
+    opacity: 0.8;
+}
+
+/***** IMAGE CLASS *****/
+
+.skill-img{
+  width: 150px;
+  float: left;
+  margin-right:30px;
+}
+
+.project-img{
+  display: block;
+  border-radius: 60px;
+  width: 120px;
+  margin: 0 auto;
+}
+
+/***** ICON CLASS *****/
+.facebook,.home,.linkedIn{
+  width: 50px;
+}
+
+/***** BUTTON CLASS *****/
+
+.btn{
+  position: relative;
+  top: 1rem;
+  background: #b2c2db;
+  background-image: linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 60px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f0f2bd;
+  background-image: linear-gradient(top, #c3d0eb, #074adb);
+  background-image: linear-gradient(to bottom, #c3d0eb, #074adb);
+  text-decoration: none;
+}
+
+/***** COPYRIGHT CLASS *****/
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+/*p{
+  font-family: "Lucida Console","Courier New",monospace;
+}*/
